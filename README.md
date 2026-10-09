@@ -1,16 +1,62 @@
-# React + Vite
+✈️ SkyBooker — Airline Booking Single-Page Application (SPA)
+A dynamic Single-Page Application (SPA) built using React.js as Task 2 for the Frontend Engineering course assignment. This project simulates an online airline reservation portal, focusing on modern React design patterns and interactive user interfaces.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo & Repository
+GitHub Repository: 
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
+React.js: Core component-based architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+JavaScript (ES6+): Logic, filtering, and state handlers.
 
-## React Compiler
+HTML5 / Inline Styling: Responsive and clean layout design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧠 Core React Concepts Implemented
+Functional Components: Modular code breakdown containing reusable UI blocks like flight cards, navigation menus, and booking modal forms.
 
-## Expanding the ESLint configuration
+State Management (useState & useReducer):
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+useState handles dynamic search filtering, active modals, passenger names, and seat selections.
+
+useReducer cleanly manages complex state transitions for booking insertions and reservation cancellations.
+
+Props: Efficient unidirectional data flow passing route and pricing details from parent views down to child components.
+
+Dynamic View Toggling: Seamless SPA navigation switching between the "Explore Flights" view and "My Bookings" itinerary view without full page reloads.
+
+Interactive UI Features: Real-time flight search filters, pop-up confirmation modals, instant booking status updates, and interactive reservation deletions.
+
+📂 Project Structure
+public/ - Static assets
+
+src/App.js - Main SPA component containing all logic & views
+
+src/index.js - React DOM entry point
+
+src/index.css - Global styles
+
+package.json - Project dependencies and scripts
+
+README.md - Project documentation
+
+💻 Getting Started Locally
+To run this project on your local machine for testing and assignment screenshots:
+
+1. Clone the repository:
+git clone 
+
+2. Navigate to the folder:
+cd airline-booking-spa
+
+3. Install dependencies:
+npm install
+
+4. Run the development server:
+npm run dev
+
+Open the local URL provided in your terminal (usually http://localhost:5173) in your browser to view the application.
+
+👤 Author
+Mahir Jada
+
+Software Engineering Student & Aspiring Full Stack Developer
