@@ -1,8 +1,10 @@
 ✈️ SkyBooker — Airline Booking Single-Page Application (SPA)
+
 A dynamic Single-Page Application (SPA) built using React.js as Task 2 for the Frontend Engineering course assignment. This project simulates an online airline reservation portal, focusing on modern React design patterns and interactive user interfaces.
 
 🚀 Live Demo & Repository
-GitHub Repository: 
+
+GitHub Repository: https://github.com/Mahir-boss/Airline-spa
 
 🛠️ Technologies Used
 React.js: Core component-based architecture.
@@ -43,7 +45,7 @@ README.md - Project documentation
 To run this project on your local machine for testing and assignment screenshots:
 
 1. Clone the repository:
-git clone 
+git clone https://github.com/Mahir-boss/Airline-spa
 
 2. Navigate to the folder:
 cd airline-booking-spa
